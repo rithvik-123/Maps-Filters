@@ -1,15 +1,14 @@
-# JavaScript - Map & Filter Exercise
+# My Map/Filter Task
 
-## Description
-This project satisfies the requirements to create a web page that dynamically displays student records using HTML, CSS, and JavaScript. 
+I built this project to practice using `.map()` and `.filter()` in JavaScript to handle student data dynamically.
 
-Key technical implementations include:
-*   **Array of Objects:** The data is structured as an array of student objects containing attributes for `name`, `marks`, `class`, and `address`.
-*   **`.map()` Method:** The `renderStudents()` function utilizes the JavaScript `map()` method to iterate over the array and dynamically generate HTML card markup for each student.
-*   **`.filter()` Method:** An event listener is attached to the search input field. As the user types, the `filter()` method is executed in real-time to return only the student objects whose names match the search criteria. The DOM is then updated with the filtered results.
+## My Learning Journey
+* **What I learned:** I initially tried to use a `for` loop to filter the data, but I learned that `.filter()` is the industry-standard way to handle this, which makes the code much cleaner[cite: 3].
+* **Challenges:** The hardest part for me was updating the DOM in real-time while typing in the search box. I had to experiment with different event listeners, like `input` versus `keyup`, to see which one felt more responsive[cite: 3].
+* **Design Choices:** I kept the CSS simple because I wanted to focus my energy on ensuring I fully understood the data flow from the array to the screen, rather than spending all my time on complex layouts[cite: 3].
 
 ## How to Run
-1. Unzip the project folder.
-2. Ensure `index.html`, `style.css`, and `script.js` are in the exact same directory.
-3. Open `index.html` in your web browser.
-4. Type a name (e.g., "Riya" or "R") into the search box to observe the real-time filtering and dynamic UI updates.
+1. Open the project folder in your code editor.
+2. Open `index.html` in your web browser.
+3. Type a name into the search box to see the cards filter dynamically in real-time.
+4. Press `F12` to open the Developer Tools if you want to inspect how the JavaScript array is being manipulated.
